@@ -28,6 +28,8 @@ TARGET_HAVE_FOD := true
 ## Inherit from beyondx device
 $(call inherit-product, device/samsung/beyondx/device.mk)
 
+$(call inherit-product, device/samsung/exynos9820-common/v4afx/config.mk)
+
 WITH_GAPPS := 0
 # Valid for core/full GAPPS (default=true)
 TARGET_USE_GOOGLE_TELEPHONY := false
